@@ -7,9 +7,9 @@ I spent a lot of time fiddling with this during our Week 6 assignment, so this w
 
 *
 *
-*
+* Comments can be found in `index.html` and `style.css` to help you along!
 
 ## Helpful Sources
 
-*
-*
+* [W3 Schools Background Image Rundown](https://www.w3schools.com/cssref/pr_background-image.asp)
+* 

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(Images/rainbow.jpg); /* <-- You can also put a link in here! */
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: 10px;
+}
+
+.backgroundTricks {
+    padding-top: 15%;
+    background-image: url(Images/garage.png);
+    background-repeat: no-repeat;
+}
