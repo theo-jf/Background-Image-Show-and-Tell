@@ -1,16 +1,43 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 80%;
+}
+
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
     text-align: center;
     background-image: url(Images/rainbow.jpg); /* <-- You can also put a link in here! */
     background-repeat: no-repeat;
+    /* background-color: aqua;
+    background-blend-mode: darken; <-- When you uncomment these stylings, the aquamarine will darken rainbow.jpg */
 }
 
 main {
-    margin: 10px;
+    padding: 10px;
+    height: 95%;
+    background-image: url(Images/garage.png), url(Images/garage.png), url(Images/garage.png); /* <-- Add multiple background images to the same element */
+    background-position: 70em 30em, left top, center; /* <-- These positions will correspond with the respective order above! */
+    background-size: 10%, 30%, 200px; /* <-- As will these sizes! */ 
+    background-repeat: no-repeat; /* <-- And this will apply to all background images in the element */
+    background-attachment: scroll, fixed, local; /* <-- These values cause the the top left garage to fix free from the page and the others to stick
+                                                        use these along with X and Y 'Background-position' values for super specific positioning */
+    background-clip: padding-box; /* <-- Notice a difference when this isn't active? (look at the top left garage and scroll!) */
+    
 }
 
-.backgroundTricks {
-    padding-top: 15%;
-    background-image: url(Images/garage.png);
-    background-repeat: no-repeat;
+h3 {
+    text-align: left;
+    padding-left: 40%;
+    padding-bottom: 3em;
+}
+
+img {
+    width: 80px;
+    position: fixed;
+    top: 52%;
+    left: 48%;
 }
